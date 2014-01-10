@@ -1,12 +1,26 @@
-mkdir ~/Hello-World
-# Creates a directory for your project called "Hello-World" in your user directory
+<!DOCTYPE html>
+<html>
+<head>
+       <style>
+       body
+       {
+       background-color:lavender;
+       }
+       </style>
 
-cd ~/Hello-World
-# Changes the current working directory to your newly created directory
-
-git init
-# Sets up the necessary Git files
-# Initialized empty Git repository in /Users/you/Hello-World/.git/
-
-touch README
-# Creates a file called "README" in your Hello-World directory
+	<script  src='https://cdn.firebase.com/v0/firebase.js'></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>    
+         <script type="text/javascript" src="js/blog.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+	<body>
+      
+		<form>
+		<b>Input Title:</b><br> <input type="text" id="InputTitle"><br><br>
+		<b>Input Content:</b><br><textarea  type="text" id="Inputcontent" rows="4" cols="50"></textarea>
+		<br><input type="button" onclick="addpost();" value="Submit">
+		</form></b>
+		
+	</body>
+</html>
